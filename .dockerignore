@@ -1,0 +1,25 @@
+# Bỏ qua thư mục mã nguồn Git
+.git
+.gitignore
+
+# Bỏ qua thư mục chứa file đã build của Maven / Eclipse
+target/
+build/
+bin/
+
+# Bỏ qua các file cấu hình riêng của IDE Eclipse
+.settings/
+.classpath
+.project
+.metadata/
+
+# Bỏ qua file cấu hình của VS Code hoặc IntelliJ (nếu có)
+.vscode/
+.idea/
+*.iml
+
+# Bỏ qua các file log và file tạm
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
